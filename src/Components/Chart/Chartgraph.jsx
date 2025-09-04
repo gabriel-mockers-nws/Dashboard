@@ -48,14 +48,13 @@ const data = [
 
 export default function ChartGraph() {
     return (
-        <div style={{ width: '100%' }} className='text-white '>
+        <div style={{ width: '100%' }} className='text-white bg-gradient-to-r from-purple-300 to-pink-300 rounded-lg  '>
             <ResponsiveContainer width="100%" height={300}>
                     <AreaChart
                     width={500}
                     height={300}
                     data={data}
                     syncId="anyId"
-                    text-color="white"
                     margin={{
                         top: 10,
                         right: 30,

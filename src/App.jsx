@@ -1,7 +1,7 @@
 import './styles.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './Components/Header'
-import Overview from './Pages/Overview'
+import Overview from './Pages/overview'
 import Transactions from './Pages/transactions'
 import Customers from './Pages/clients'
 

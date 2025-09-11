@@ -4,6 +4,7 @@ import Header from './Components/Header'
 import Overview from './Pages/overview'
 import Transactions from './Pages/transactions'
 import Customers from './Pages/clients'
+import Account from './Pages/account'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/" element={<Overview />} />
                 <Route path="/transactions" element={<Transactions />} />
                 <Route path="/clients" element={<Customers />} />
+                <Route path="/account" element={<Account />} />
               </Routes>
         </Router>
       </div>

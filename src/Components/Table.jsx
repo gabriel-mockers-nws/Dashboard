@@ -1,6 +1,6 @@
 export default function Table() {
     return (
-        <div className="text-white flex justify-center">
+        <div className="text-white flex justify-center py-10">
             <table className="min-w-[700px] bg-neutral-700 opacity-90 rounded-2xl overflow-hidden w-300 h-250">
                 <caption className="caption-top text-lg font-semibold mb-2">
                     Customers task

@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import Search from "./Search";
 
 export const Header = () => {
     return (
@@ -6,6 +7,8 @@ export const Header = () => {
             <Link to="/">Vue d&apos;ensemble</Link>
             <Link to="/transactions">Transactions</Link>
             <Link to="/clients">clients</Link>
+            <Link to="/account">Mon compte</Link>
+            <Search />
         </nav>
     )
 }

@@ -1,7 +1,7 @@
-export default function Table() {
+export default function CustomersTables() {
     return (
-        <div className="text-white flex justify-center">
-            <table className="min-w-[700px] bg-neutral-700 opacity-90 rounded-2xl overflow-hidden w-300 h-250">
+        <div className="text-white flex justify-center py-10">
+            <table className="min-w-[700px] bg-neutral-700 opacity-90 rounded-2xl overflow-hidden w-300 h-200 px-2">
                 <caption className="caption-top text-lg font-semibold mb-2">
                     Customers task
                 </caption>
